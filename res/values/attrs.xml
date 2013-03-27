@@ -1,6 +1,8 @@
 <resources>
 
     <!--
+    	begin：
+    	为fullscreen定义的属性
          Declare custom theme attributes that allow changing which styles are
          used for button bars depending on the API level.
          ?android:attr/buttonBarStyle is new as of API 11 so this is
@@ -9,7 +11,7 @@
     <declare-styleable name="ButtonBarContainerTheme">
         <attr name="buttonBarStyle" format="reference" />
         <attr name="buttonBarButtonStyle" format="reference" />
-        <attr name="myattr" format="reference" />
+        <attr name="myattr" format="reference" /><!-- 测试 -->
     </declare-styleable>
-
+	<!-- end -->
 </resources>

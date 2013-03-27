@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="5"
         android:targetSdkVersion="17" />
         
 <!-- 最基本的权限 -->
@@ -35,7 +35,8 @@
         <activity android:name="com.ex.adlayout.test.MainActivity"/>
         <activity android:name="com.ex.adlayout.test.BannerActivity"/>
         <activity android:name="com.ex.adlayout.test.PopupActivity"/>
-        <activity android:name="com.ex.adlayout.test.IconActivity"/>
+        <activity android:name="com.ex.adlayout.test.IconActivity"
+            />
       <!--   <activity android:name="com.ex.adlayout.test.FullscreenActivity"/> -->
         
          <activity android:name=".FullscreenActivity"

@@ -30,8 +30,8 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fitsSystemWindows="true" >
-
+        android:fitsSystemWindows="true" >	<!-- 笔记 ：android:fitsSystemWindows-->
+		<!-- 笔记：style="?buttonBarStyle" tools:ignore="UselessParent" -->
         <LinearLayout
             android:id="@+id/fullscreen_content_controls"
             style="?buttonBarStyle"
@@ -41,7 +41,8 @@
             android:background="@color/black_overlay"
             android:orientation="horizontal"
             tools:ignore="UselessParent" >
-
+			
+			<!-- 笔记：style="?buttonBarButtonStyle" -->
             <Button
                 android:id="@+id/dummy_button"
                 style="?buttonBarButtonStyle"
