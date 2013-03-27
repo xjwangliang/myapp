@@ -1,0 +1,63 @@
+{
+default_banner_sdk:1,
+default_icon_sdk:0,
+default_popup_sdk:0,
+default_fullscreen_sdk:1,
+host_sdk:0,
+app_id:10001,
+sdk_key:'adlayout3.0xxx',
+sdk_version:'3.0',
+
+sdk_list:[
+		{
+			sdk_code:0,
+			description:"这是自主平台，session是服务器获取的，所以这里为空串，但是不能不写",
+			sdk_name:"adlayout",
+			sdk_key_names:["session"],
+			session:""
+		},
+		{
+			sdk_code:1,
+			description:"这是admob平台，需要publisher_id",
+			sdk_name:"admob",
+			sdk_key_names:["publisher_id"],
+			publisher_id:"a150d3cf9838929"
+		},
+		{
+			sdk_code:2,
+			sdk_name:"inmobi",
+			sdk_key_names:["app_id"],
+			app_id:"4028cbff3b93b240013bb630fb7b02a6"
+		},
+		{
+			sdk_code:3,
+			sdk_name:"mmedia",
+			sdk_key_names:["app_id"],
+			app_id:"107300"
+		},
+		{
+			sdk_code:4,
+			sdk_name:"flurry",
+			description:"这是flurry平台，需要session_id和adSpace",
+			sdk_key_names:["session_id","adSpace"],
+			session_id:"9D6M23FNZY2H5DY75S28",
+			"adSpace":"One Touch Battery Saver Banner"
+		},
+		{
+			sdk_code:5,
+			sdk_name:"imobile",
+			description:"这是imobile平台，需要Publisher_I、Media_ID和Spot_ID",
+			sdk_key_names:["Publisher_ID","Media_ID","Spot_ID"],
+			Publisher_ID:"16795",
+			Media_ID:"44844",
+			Spot_ID:"83078"
+		},
+		{
+			sdk_code:6,
+			sdk_name:"adlantis",
+			sdk_key_names:["publisher_id"],
+			publisher_id:"MjMxNzA%3D%0A"
+		}
+		
+		]
+}

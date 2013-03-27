@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:menue="http://menue.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.menue.adlayout.ad.AdLayout
+        android:id="@+id/adlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        menue:ad_debug="true"
+        menue:ad_type="banner"
+        menue:sdk_key="a150c6cf8f3f830xxxxx" />
+
+<!--     <TextView
+        android:id="@+id/read_me"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="点击下面的按钮模拟一个程序红添加多个广告，点击back模拟退出程序"
+        android:textColor="#f00" /> -->
+
+    <include layout="@layout/activity_main" />
+    <!-- android:layout_gravity="center_horizontal" -->
+
+</LinearLayout>
